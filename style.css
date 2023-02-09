@@ -1,0 +1,180 @@
+.my-button {
+background-color: #bac3e2;
+border: none;
+color: #475ba4;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+blockquote {
+font-size: 80px;
+border-left: green;
+border-left-width: 3px;  
+
+}
+
+
+.class-1 .class-2 {
+color: darkred;
+font-size: 18px;
+}
+
+
+p > strong {
+  color: darkblue;
+  font-family: cursive;
+}
+
+ol > ul {
+  color: darkred;
+}
+
+a:hover {
+    
+    color: darkred;
+    
+}
+
+
+.link:focus {
+    
+  outline: 2px dashed blue;
+  outline-offset: 2px;
+  background-color: black;
+    
+}
+
+li:first-child {
+background: #cec1ee;
+font-weight: bold;
+}
+
+li:last-child {
+background: black;
+color: aliceblue;
+font-weight: bold;
+font-family: cursive;
+}
+
+.calvin-and-hobbes {
+color:darkorange;
+}
+
+.calvin-and-hobbes2 {
+color:#FF6600;
+}
+
+.calvin-and-hobbes3 {
+color:rgba(255,136,73,255);
+}
+
+.calvin-and-hobbes4 {
+color: hsla(207, 33%, 56%, 1);
+}
+
+.box-more {
+    /*border-color: black;*/
+    border: 5 px solid black;
+    background-image: url(https://i.pinimg.com/474x/56/d1/c1/56d1c172016274620220674057db8337.jpg);
+}
+
+.box-more2 {
+    /*border-color: black;*/
+    background-image: url(https://i.pinimg.com/474x/56/d1/c1/56d1c172016274620220674057db8337.jpg);
+    background-position: bottom;
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+.box-more3 {
+   box-shadow: 1rem 1rem pink, -1rem -1rem purple; 
+}
+
+.box-more4 {
+    box-shadow: 1px 5px 10px #475ba4;
+}
+
+.box-more5 {
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.128),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.25),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.312),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.371),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.434),
+  100px 100px 80px rgba(0, 0, 0, 0.5)
+;
+}
+
+.invisible-ink>span{
+    
+    opacity: 0%;
+    
+}
+
+.invisible-ink>span:hover{
+    
+    opacity: 100%;
+    
+}
+
+.invisible-ink2>span{
+    
+    opacity: 100%;
+    color: aliceblue;
+}
+
+
+.invisible-ink2>span:hover {
+    
+    opacity: 100%;
+    color: lightpink;
+    background-color: black;
+    transition: color 500ms ease;
+}
+
+
+.ebay-logo >span:nth-child(1) {
+    
+    color: orangered;
+}
+
+.ebay-logo >span:nth-child(2) {
+    
+    color: dodgerblue;
+}
+
+.ebay-logo >span:nth-child(3) {
+    
+    color: yellow;
+}
+
+.ebay-logo >span:nth-child(4) {
+    
+    color: greenyellow;
+}
+
+
+.bee {
+    
+transform:rotate(0.5turn)
+translate(17px, 49px);
+    
+}
+
+.bee2 {
+    
+transform:translate(17px, 49px)rotate(0.5turn)
+;
+    
+}
+
+
+.filter {
+    
+    filter:saturate(4.6);
+    filter:sepia(2.1);
+    filter:hue-rotate(60);
+  
+}
